@@ -1,0 +1,85 @@
+.main{
+    border:2px solid black;
+    width:90%;
+    height: 1200px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: auto;
+    gap:3%;
+    padding:30px;
+}
+.main>div{
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: repeat(1,95%);
+    grid-template-rows: 50% 20% 25%;
+    gap:2%;
+    padding: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.avtar{
+    height:200px
+}
+.avtar>img{
+    height:100%;
+}
+.comments{
+    display: flex;
+}
+.articlebuttons{
+    border:1px solid black;
+    width:50%;
+    margin:auto;
+    height:100px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 200;
+}
+.avtar:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  } 
+
+
+button > a {
+    text-decoration: none;
+    color: white;
+}
+a {
+    color: black;
+    font-size: 17px;
+}
